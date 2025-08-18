@@ -11,62 +11,87 @@
 
 <body>
   <main class="container py-4 py-md-5">
-    <header class="m-3 p-3 bs-light border border-3 border-secondary rounded">
-      <h1 class="text-center">Soy Juan Cabello Vargas</h1>
-      <p class="text-center text-bold">Estudiante de Ingenieria en Ciencias de la Computacion, Universidad de Los Andes
-        </h3>
+
+    <header class="card m-3 m-md-3 p-3 border-primary">
+        <div class="card-body ">
+          <h1 class="card-title text-center mb-2">
+            <span class="text-primary">¡Que tal!</span>
+            <span class="text-black">Soy Juan Cabello</span>
+          </h1>
+          <p class="text-center text-secondary mb-0">Estudiante de Ingenieria en Ciencias de la Computacion, Universidad de Los Andes
+        </div>
     </header>
 
-    <section>
-      <h2>Sobre mi</h2>
-      <p>
-        Soy estudiante de Ingenieria civil en la Universidad de los Andes. Me considero una persona de intereses muy
-        variados y por lo mismo siento que el area de la computacion es una buena forma de poder sacar potencial a mi
-        curiosidad a traves de distintos proyectos acorde a cada uno de ellos.
-      </p>
+    <section class="row row-gap">
+      <div class="col-12 mb-3">
+        <div class="card border-info">
+          <div class="card-body">
+            <div class="row">
+              <div class="col text-center">
+                <img src="images/icon.jpg" alt="Vivi Ornitier" class="rounded-circle border border-secondary">
+              </div>
+              <div class="col text-center">
+                <h2 class="card-title text-info">Sobre mi</h2>
+                <p>
+                  Soy estudiante de Ingenieria Civil mencion Ciencias de la computacion. Me considero una person de
+                  intereses muy variados y por lo mismo siento que el area de la computacon es una buena forma de poder
+                  sacar potencial a mi curiosidad a traves de distintos proyectos enfocados en cada uno de ellos.
+                </p>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
     </section>
 
     <section>
       <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title p-2">Mis gustos</h2>
+        <div class="col-sm-6 mb-3">
+          <div class="card border-success">
+            <div class="card-body ">
+              <h2 class="card-title p-2 text-success">Mis gustos</h2>
               <ul>
-                <li>Cafe: Desde el tostado a su elaboracion</li>
-                <li>Juegos: Especialmente los juegos competitivos</li>
-                <li>Plantas de interior: Tanto sus cuidados como propagarlas</li>
-                <li>Leer</li>
+                <li>Plantas de interior: Tanto sus cuidados como propagarlas.</li>
+                <li>Leer: Especialmente literatura contemporanea.</li>
+                <li>Cafe: Desde el tostado a su elaboracion.</li>
+                <li>Juegos: Competitivos y de historia.</li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <h2 class="card-title">Mis Hobbies</h2>
-            <ul>
-              <li>asdasd</li>
-              <li>asdasd</li>
-              <li>asdasd</li>
-              <li>asdasdasd</li>
-            </ul>
+        <div class="col-sm-6 mb-3">
+          <div class="card border-warning">
+            <div class="card-body">
+              <h2 class="card-title p-2 text-warning">Hobbies e intereses</h2>
+              <ul>
+                <li>Propagar plantas</li>
+                <li>Filtrar cafe</li>
+                <li>Programar</li>
+                <li>Gimnasio</li>
+              </ul>
+            </div>
           </div>
         </div>
 
       </div>
     </section>
+
     <section>
-      <div>
-        <h2>Enlaces</h2>
-        <p>Podemos hablar y ver algunos proyectos mios aqui:</p>
-        <div>
-          <a href="https://instagram.com/juancho.jpg">
-            Instagram
-          </a>
-          <a href="https://github.com/JuanCabelloVargas">
-            Github
-          </a>
+      <div class="card border-dark">
+        <div class="card-body">
+          <h2 class="card-title text-dark">Enlaces</h2>
+          <p class="text-secondary">Podemos hablar y ver algunos proyectos mios aqui:</p>
+          <div>
+            <a class="btn border-secondary" href="https://instagram.com/juancho.jpg">
+              Instagram
+            </a>
+            <a class="btn border-secondary" href="https://github.com/JuanCabelloVargas">
+              Github
+            </a>
+          </div>
         </div>
+
       </div>
     </section>
   </main>
