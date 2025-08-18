@@ -1,6 +1,6 @@
 # Web Technologies - Lab # 
 
-This repository contains te project for **laboratory 1** of the Web Tech course.
+This repository contains the project for **laboratory 1** of the Web Tech course.
 The page is a simple __About Me__ that was made using HTML and Bootsrap.
 
 ## Description
