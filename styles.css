@@ -1,0 +1,11 @@
+:root {
+  --bs-custom: #5897f5;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-custom {
+  color: var(--bs-custom) !important;
+}
